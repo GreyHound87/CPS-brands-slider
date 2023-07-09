@@ -149,10 +149,11 @@
     padding-right: 14px;
   }
 
-  .more-btn__img--flip {
-    transform: rotate(180deg);
-    margin-right: 16px;
+  .brands__more-btn--active::before {
+    transform: rotate(180deg) translateY(50%);
+    right: 79px;
   }
+
 }
 
 @media (min-width: 1120px) {
